@@ -52,7 +52,7 @@ export default function VerificationEmail({ username, otp }: VerificationEmailPr
         </Row>
         <Row>
           <Button
-            href={`${process.env.FRONTEND_URI}/verify/${username}`}
+            href={`${process.env.BASE_URI}/verify/${username}`}
             style={{ color: '#61dafb' }}
           >
             Verify here
